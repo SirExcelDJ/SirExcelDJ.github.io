@@ -1,0 +1,103 @@
+body {
+  padding:10px;
+  background-color:#fff5f5;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding:5px;
+  color: #FFFFFF;
+  width:auto;
+  height:125px;
+  background:url("../images/Sayan.png") no-repeat #610b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background-position: -5px;
+  background-position: 3px;
+}
+
+header span {
+  font-size:2.5em;
+}
+
+body{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+img {
+  width:200px;
+  border:5px solid #CCCCCC;
+  float:left;
+  margin:0 2em 0 0;
+
+}
+
+nav {
+  width:auto;
+  background:#edd4de;
+  line-height: 20px;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  display:flex
+}
+
+nav ul li {
+  display:flex;
+  background:#edd4de;
+  line-height: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  background:#edd4de;
+  color: #0B2161;
+  padding:0.4em;
+}
+
+nav ul li a:hover {
+  background: #ea5077;
+  text-decoration: none;
+  border-bottom:2px solid #0B2161;
+}
+
+
+main {
+ 
+  padding:10px; 
+}
+
+h2, .enlacepie {
+  clear:both;
+}
+img:hover{
+  width:250px;
+}
+
+footer {
+  color: #7258d2;
+  clear:both;
+  width:auto;
+  background:#edd4d8;
+}
+
+footer p {
+  margin:0;
+  padding:1em;
+}
+
+.seleccionado {
+  color: rgb(34, 0, 255);
+  font-weight: bold;
+  }
+
+  .modelos-container {
+    display:table-row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
